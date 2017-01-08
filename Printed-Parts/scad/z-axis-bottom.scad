@@ -55,7 +55,7 @@ module z_bottom_holes(){
  translate([-15.5,-15.5,-1]) cylinder(h = 20, r=1.8, $fn=30);
  
  
- translate([0,0,-1]) cylinder(h = 20, r=12, $fn=30);
+ translate([0,0,-1]) cylinder(h = 20, r=12, $fn=30); //big hole
  }
 
 }
